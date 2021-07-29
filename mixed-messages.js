@@ -19,12 +19,12 @@ Mujahid Ahmed July 2021
      return Math.floor(Math.random() * (max - min + 1) + min);
  }
  
- const commonIndex1  = randomIntFromInterval(0, commonWords.length);
- const nounIndex1    = randomIntFromInterval(0, nouns.length);
- const verbIndex     = randomIntFromInterval(0, verbs.length);
- const commonIndex2  = randomIntFromInterval(0, commonWords.length);
- const nounIndex2    = randomIntFromInterval(0, nouns.length);
- 
+ const commonIndex1  = randomIntFromInterval(0, commonWords.length - 1);
+ const nounIndex1    = randomIntFromInterval(0, nouns.length - 1);
+ const verbIndex     = randomIntFromInterval(0, verbs.length - 1);
+ const commonIndex2  = randomIntFromInterval(0, commonWords.length - 1);
+ const nounIndex2    = randomIntFromInterval(0, nouns.length - 1);
+
  /**
   * Output random sentence.
   */
